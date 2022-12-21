@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState, useContext } from "react";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
-import ThumbUpAltIcon from "@material-ui/icons/ThumbUpAlt";
+import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
 import { AuthContext } from "../helpers/AuthContext";
 
 const Home = () => {

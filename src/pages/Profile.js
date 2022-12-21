@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import ThumbUpAltIcon from "@material-ui/icons/ThumbUpAlt";
+import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
 import axios from "axios";
 import { AuthContext } from "../helpers/AuthContext";
 
